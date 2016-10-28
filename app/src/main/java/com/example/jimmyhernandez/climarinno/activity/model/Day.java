@@ -40,7 +40,7 @@ public class Day {
     private Double totalprecipIn;
     @SerializedName("condition")
     @Expose
-    private Condition_ condition;
+    private Condition condition;
 
     /**
      * 
@@ -227,7 +227,7 @@ public class Day {
      * @return
      *     The condition
      */
-    public Condition_ getCondition() {
+    public Condition getCondition() {
         return condition;
     }
 
@@ -236,7 +236,7 @@ public class Day {
      * @param condition
      *     The condition
      */
-    public void setCondition(Condition_ condition) {
+    public void setCondition(Condition condition) {
         this.condition = condition;
     }
 
