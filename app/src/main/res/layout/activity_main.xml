@@ -100,7 +100,7 @@
         android:layout_marginLeft="4dp"/>
 
     </RelativeLayout>
-    <RelativeLayout
+    <!--<RelativeLayout
         android:id="@+id/rl2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -192,7 +192,7 @@
             android:layout_toRightOf="@id/windSpeed2"
             android:layout_marginLeft="4dp"/>
 
-    </RelativeLayout>
+    </RelativeLayout>-->
 
 
 </RelativeLayout>
